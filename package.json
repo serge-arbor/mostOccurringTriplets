@@ -1,0 +1,26 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "build": "tsc",
+    "watch": "ts-node-dev --respawn src/index.ts",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0"
+  }
+}
